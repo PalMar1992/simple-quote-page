@@ -18,7 +18,7 @@ body {
     width: 90vw;
     text-align: center;
     margin: auto;
-    margin-top: 7rem;
+    margin-top: 4rem;
     line-height: 1.5;
     letter-spacing: .15rem;
 }
@@ -29,3 +29,38 @@ body {
     font-size: 1rem;
     font-style: italic;
 }
+
+.nav {
+   text-align: center;
+   margin-top: 1.3rem;
+   font-family: Caladea;
+}
+
+
+a {
+  text-decoration: none;
+  color: #436581;
+}
+.eng {
+   margin-right: 2rem;
+}
+
+.fra {
+    margin-right: 2rem;
+}
+
+a:hover {
+  color: #eda087;
+  transition: color .15s ease-in-out;
+}
+
+.nav::after {
+  content: "";
+  display: block;
+  height: .16rem;
+  width: 20vw;
+  margin: 1rem auto;
+  background-color: #436581;
+}
+
+
