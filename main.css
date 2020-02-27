@@ -9,8 +9,7 @@ body {
 
 .text {
     font-family: "Montserrat", Helvetica, sans-serif;
-    font-size: 2rem;
-    text-transform: uppercase;
+    font-size: 1.225rem;
     margin-bottom: 3.5rem;
 }
 
@@ -23,17 +22,11 @@ body {
     letter-spacing: .15rem;
 }
 
-
-.name {
-    font-family: "Caladea", Helvetica, sans-serif;
-    font-size: 1rem;
-    font-style: italic;
-}
-
 .nav {
    text-align: center;
    margin-top: 1.3rem;
    font-family: Caladea;
+   font-size: 0.885rem;
 }
 
 
@@ -58,9 +51,27 @@ a:hover {
   content: "";
   display: block;
   height: .16rem;
+  width: 55vw;
+  margin: 1rem auto;
+  background-color: #436581;
+}
+
+@media (min-width: 768px) {
+   .text {
+     font-size: 2rem;
+     text-transform: uppercase; 
+   }
+   .nav {
+   font-size: 1rem;
+}
+   .nav::after {
+  content: "";
+  display: block;
+  height: .16rem;
   width: 20vw;
   margin: 1rem auto;
   background-color: #436581;
+}
 }
 
 
